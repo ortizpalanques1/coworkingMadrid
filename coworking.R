@@ -4,7 +4,7 @@ library(tidyverse)
 library(ggrepel)
 
 # Cargar datos
-datoSemanal <- readRDS("datoSemanal.rds")
+datoSemanal <- readRDS("datoSemanal.Rds")
 # Funciones
 nombrePropio <- function(x){
   separador <- c(unlist(strsplit(x,"\\s")))
@@ -89,8 +89,8 @@ granTotal$todoPonderado <- as.numeric(as.character(granTotal$todoPonderado))
 # Graficar
 ## 1. Precio promedio total por metro cuadrado: sólo el número
 granTotal$promedioM2 <- (granTotal$todoPrecio/granTotal$todoPonderado)
-#granTotal <- granTotal %>% 
-#  dplyr::filter(promedioM2 >=8)
+granTotal <- granTotal %>% 
+  dplyr::filter(promedioM2 >=8)
 promedioTotal <- mean(granTotal$promedioM2,na.rm = TRUE)
 
 ## 2. Precio promedio por zona anunciada por metro cuadrado: gráfico de barras 
@@ -135,8 +135,8 @@ ggsave("coworking.png", graphBar, height = 10, width = 10, units = "cm")
   
 tablaSintesis <- totalPorZona[c("todoRegion", "PromedioM2")]  
 colnames(tablaSintesis)[2] <- diaDeHoy
-datoSemanal <- full_join(datoSemanal,tablaSintesis,by="todoRegion")
-saveRDS(datoSemanal, file = "datoSemanal.rds")
+datoSemanal <- full_join(datoSemanal,tablaSintesis,by="todoRegion") 
+saveRDS(datoSemanal, file = "datoSemanal.Rds")
 
 
 
