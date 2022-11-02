@@ -20,6 +20,12 @@ Data were scraped from Milanuncios following a definite pattern:
 3. A try catch process guarantees that problematic data (incomplete mainly) were discarded.
 4. After several tests, all the cleaning process was done inside the script. No additionally operations were needed.
 
+## Analysis
+Data were stored in a data frame containing the following information: quarter in Madrid (according the add), the price for square meter in each quarter and the weighted average for all the region. Data were formatted accordingly.
+Most of the data were classified under the generic label "Madrid", therefore we missed one important piece of information. Our company was located in the South part of Madrid, where prices were lower; therefore, we were interested in a segmentation that could reflect these differences. Only one add made direct reference to the South, and it was very low compared to the global average. Other important aspect was the absence of clear trends in the quarters. 
+Despite these hindrances, we could obtain a good picture of the prices. The high prices in Madrid and Pozuelo del Alarcón clearly contrasted with the low value found for the Southern municipality of Parla. Those high prices, also, raise the global average in such a way that, using it, we obtain a biased picture of the marked.
+
+
 
 ## Final Products
 1. Scrap data from Milanuncios about co working spaces in Madrid, Spain.
