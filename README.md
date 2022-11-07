@@ -27,9 +27,9 @@ Despite these hindrances, we could obtain a good picture of the prices. The high
 
 
 
-## Final Products
-1. Scrap data from Milanuncios about co working spaces in Madrid, Spain.
-2. Creates the average price by zone every week.
+## Share
+Our original question was what were the prices of different co-working spaces in Madrid? Our data addressed this question and, with the right analysis could present a clear picture of the situation from May to July, 2021. Although some data were missing, the trend was clear. The high prices in the city of Madrid contrasted with the low prices in the South of the province.
+The participant in the short lived joint venture had information, in the form of charts, that allowed them to be informed, week by week, of the evolution of the prices. We presented our findings in two charts. The first one presented the evolution by quarters in Madrid; whilst the second gave us the picture for every week. The charts were send via email, so each member had the information when nedeed.
 
 ### Evolución de los precios del Coworking (may-jul, 2021)
 <img src="lineasCoworking.png" alt="drawing" width="500"/>
