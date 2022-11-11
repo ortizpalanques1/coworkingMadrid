@@ -31,9 +31,18 @@ Despite these hindrances, we could obtain a good picture of the prices. The high
 Our original question was what were the prices of different co-working spaces in Madrid? Our data addressed this question and, with the right analysis could present a clear picture of the situation from May to July, 2021. Although some data were missing, the trend was clear. The high prices in the city of Madrid contrasted with the low prices in the South of the province.
 The participant in the short lived joint venture had information, in the form of charts, that allowed them to be informed, week by week, of the evolution of the prices. We presented our findings in two charts. The first one presented the evolution by quarters in Madrid; whilst the second gave us the picture for every week. The charts were send via email, so each member had the information when nedeed.
 
+
 ### Evolución de los precios del Coworking (may-jul, 2021)
 <img src="lineasCoworking.png" alt="drawing" width="500"/>
 
 ### Precio por metro cuadrado según área de Madrid (jul. 2021)
 <img src="coworking.png" alt="drawing" width="300"/>
 
+
+## Act
+This insight gave our team a clearer picture of the co working market than our previous knowledge. With the information, stakeholders could have an idea about how to ask if, at some point, they agree in renting the space. 
+For the future, with this experience in scrapping and organizing the data, other real estate portals can be added.
+Based on the data, our recommendations were:
+
+1. The price should be below average, but not too much. Our working space was not in the city of Madrid, but communications with the city centre were optimal.
+2. It would be a good idea waiting for the market to stabilize. In the aftermaths of the COVID, 'back to the office' was not a very appealing idea. People have learned to work from home and have seen the advantages of it.
